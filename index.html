@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Connell's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/a15c4a01f1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Header with NavBar -->
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills and Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#interests">Interests</a></li>
+          <li><a href="#footer">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+    <main>
+      <section id="home">
+        <h1>Connell Johnson</h1>
+        <img
+          src="images\placeholder_man.png"
+          alt="pixel_connell"
+          style="height: 200px; width: 200px"
+        />
+      </section>
+
+      <!-- About Section -->
+      <section id="about">
+        <h2>About</h2>
+
+        <p>
+          Hi, I'm Connell, a Credit Analyst with a deep-rooted love for numbers,
+          now transitioning into the tech world as a self-taught programmer. My
+          economic background, shaped by a Bachelor's degree in Economics from
+          Appalachian State University, has given me a solid foundation in
+          analytical thinking. This, coupled with my growing coding skills,
+          fuels my drive to create innovative, data-driven solutions.
+        </p>
+
+        <p>
+          Outside of work, you'll find me hiking Tennessee's trails, gaming, or
+          diving into a new music genre rabbit hole. I'm a regular at the gym, a
+          coffee enthusiast, and a chess amateur, often spending quality time
+          with my girlfriend. As I pivot into programming, I'm eager to blend my
+          analytical expertise with coding, excited about the new challenges and
+          opportunities it brings.
+        </p>
+      </section>
+
+      <!-- Skills  / Experience -->
+      <section id="skills">
+        <div class="container">
+          <div class="skills">
+            <h2>Experience with:</h2>
+            <ul>
+              <li>
+                Python
+                <i class="fa-brands fa-python"></i>
+              </li>
+              <li>
+                Excel
+                <i class="fa-solid fa-file-excel"></i>
+              </li>
+              <li>
+                HTML / CSS
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+              </li>
+              <li>
+                JavaScript
+                <i class="fa-brands fa-js"></i>
+              </li>
+              <li>
+                React
+                <i class="fa-brands fa-react"></i>
+              </li>
+              <li>
+                Blender
+                <i class="fa-solid fa-blender"></i>
+              </li>
+              <li>
+                ChatGPT 4
+                <i class="fa-solid fa-robot"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience">
+        <div class="container">
+          <div class="experience">
+            <h2>Work Experience / Education</h2>
+            <h3>Ford Motor Credit Company (2017-Present)</h3>
+            <div class="work-container">
+              <ul>
+                <li>Commercial Credit Analyst</li>
+                <li>Dealer Credit Specialist / Analyst</li>
+                <li>Dealer Service Analyst</li>
+                <li>Loss Prevention Analyst</li>
+                <li>Ford Credit Leadership Development Program</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="education">
+        <div class="container">
+          <div class="education">
+            <h3>Appalachian State University - Boone, NC (2013-2017)</h3>
+
+            <ul>
+              <li>
+                Bachelor of Science in Business Administration (BSBA) in
+                Economics
+              </li>
+              <li>3.84 GPA (Magna Cum Laude)</li>
+              <li>Betta Gamma Sigma Member: International Honor Society</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio Section -->
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+          <!-- Project One -->
+          <div class="project" id="one">
+            <img src="images/basic_web_scraper.png" alt="Project One" />
+            <h3>Web Scraper for "Books to Scrape"</h3>
+            <p>
+              A Python-based tool designed to extract and catalog book
+              information (titles, prices, ratings, availability) from the
+              "Books to Scrape" website, showcasing skills in web scraping, data
+              parsing, and automation.
+            </p>
+            <!-- Place for tags/badges -->
+            <div class="project-tags">
+              <!-- Example tags -->
+              <i class="fa-brands fa-python"></i>
+              <i class="fa-solid fa-robot"></i>
+              <!-- More tags as needed -->
+              <div class="modal" id="modal-one">
+                <span class="modal-close-button">Close</span>
+                <p>
+                  This project is a Python-based web scraper designed for the
+                  "Books to Scrape" website. It efficiently extracts key book
+                  details such as titles, prices, ratings, and availability,
+                  storing the data in a CSV file. The scraper is user-friendly,
+                  allowing customization of the number of pages to scrape and
+                  the output file name. It features robust error handling and
+                  logging for reliability and ease of use. This tool not only
+                  demonstrates my skills in web scraping and data parsing but
+                  also highlights my ability to create practical, automated
+                  solutions for data collection and analysis.
+                </p>
+                <a
+                  href="https://github.com/johnsoncr9/Web-Scraper"
+                  target="_blank"
+                  >View on GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Two -->
+          <div class="project" id="two">
+            <img src="images/snake_python.png" alt="Project Two" />
+            <h3>Snake</h3>
+            <p>
+              Classic Snake Game created in Python. Can you get the High Score?
+            </p>
+            <div class="project-tags">
+              <!-- Exp Tags for Project Two -->
+              <i class="fa-brands fa-python"></i>
+              <!-- More tags as needed -->
+              <div class="modal" id="modal-two">
+                <span class="modal-close-button">Close</span>
+                <p>
+                  This project is a Python-based version of the classic game
+                  Snake. This project was created during my journey through Dr.
+                  Angela Yu's 100 Days of Code: The Complete Python Pro
+                  Bootcamp.
+                </p>
+                <p>
+                  Rules: Using the arrow-keys, move your snake around the screen
+                  and gobble up the apple. As the snake eats, his body grows!
+                  But becareful. Don't touch the edge of the screen or the snake
+                  body.
+                </p>
+                <a
+                  href="https://github.com/johnsoncr9/Snake-Game"
+                  target="_blank"
+                  >View on GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Three -->
+          <div class="project" id="three">
+            <img
+              src="images/state_guessing_game.png"
+              alt="State Guessing Game"
+            />
+            <h3>State Guessing Game</h3>
+            <p>
+              State Guessing Game created in Python. Use the input box to enter
+              the name of a United States' State. Can you guess all 50?
+            </p>
+            <div class="project-tags">
+              <!-- Tags for Project Three -->
+              <i class="fa-brands fa-python"></i>
+              <!-- More tags as needed -->
+              <div class="modal" id="modal-three">
+                <span class="modal-close-button">Close</span>
+                <p>
+                  This project is a Python-based United States' State Guessing
+                  Game. This project was created during my journey through Dr.
+                  Angela Yu's 100 Days of Code: The Complete Python Pro
+                  Bootcamp.
+                </p>
+                <p>
+                  Rules: Use the input box to enter the name of a U.S. State and
+                  click enter of submit. If correct, the name of the entered
+                  state will show on the U.S. Map. If incorrect, try again! No
+                  limit on the number of guesses.
+                </p>
+                <a
+                  href="https://github.com/johnsoncr9/State-Guessing-Game"
+                  target="_blank"
+                  >View on GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Four -->
+          <!-- <div class="project" id="four">
+            <img src="path_to_image" alt="Project Four" />
+            <h3>Tic-Tac-Toe</h3>
+            <p>Classic Tic-Tac-Toe Game created in Python. Who will win?</p>
+            <div class="project-tags"> -->
+          <!-- Tags for Project Four -->
+          <!-- <i class="fa-brands fa-html5"></i>
+              <i class="fa-brands fa-css3-alt"></i>
+              <i class="fa-brands fa-js"></i> -->
+          <!-- More tags as needed -->
+          <!-- <div class="modal" id="modal-four">
+                <span class="modal-close-button">Close</span>
+                <p>
+                  This project is a HTML, CSS, and JavaScript based Tic-Tac-Toe
+                  game.
+                </p>
+                <p>
+                  Rules: 2-Players. One will be the Xs and the other Os. Both
+                  users will take turns picking a squre using the mouse. First
+                  to get 3 of their perspective letter (X or O) in a row
+                  horizontially, vertically, or diagnoally wins. If no winner by
+                  the time all squares are selected, result is a draw.
+                </p>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- Project Five -->
+          <div class="project" id="five">
+            <img src="path_to_image" alt="Project Five" />
+            <h3>Personal Portfolio Website</h3>
+            <p>This website</p>
+            <div class="project-tags">
+              <!-- Tags for Project Five -->
+              <i class="fa-brands fa-html5"></i>
+              <i class="fa-brands fa-css3-alt"></i>
+              <i class="fa-brands fa-js"></i>
+              <!-- More tags as needed -->
+              <div class="modal" id="modal-five">
+                <span class="modal-close-button">Close</span>
+                <p>This website</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Six -->
+          <!-- <div class="project" id="six">
+            <img src="path_to_image" alt="Project Six" />
+            <h3>Background Generator</h3>
+            <p>Generate background colors with interactive interface.</p>
+            <div class="project-tags"> -->
+          <!-- Tags for Project Six -->
+          <!-- <i class="fa-brands fa-html5"></i>
+              <i class="fa-brands fa-css3-alt"></i>
+              <i class="fa-brands fa-js"></i> -->
+          <!-- More tags as needed -->
+          <!-- <div class="modal" id="modal-six">
+                <span class="modal-close-button">Close</span>
+                <p>Generate background colors with interactive interface.</p>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- Project Seven -->
+          <div class="project" id="seven">
+            <img src="images/meme_generator.png" alt="Project Seven" />
+            <h3>Meme Generator</h3>
+            <p>Generates Memes based on a database of the top 100 memes.</p>
+            <div class="project-tags">
+              <!-- Tags for Project Six -->
+              <i class="fa-brands fa-react"></i>
+              <i class="fa-brands fa-html5"></i>
+              <i class="fa-brands fa-css3-alt"></i>
+              <i class="fa-brands fa-js"></i>
+              <!-- More tags as needed -->
+              <div class="modal" id="modal-seven">
+                <span class="modal-close-button">Close</span>
+                <p>Generates Memes based on a database of the top 100 memes.</p>
+                <a
+                  href="https://github.com/johnsoncr9/meme_generator"
+                  target="_blank"
+                  >View on GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Eight -->
+          <div class="project" id="eight">
+            <img
+              src="images/economic_thesis_paper.png"
+              alt="Economic Thesis Paper"
+            />
+            <h3>Economic Thesis Paper</h3>
+            <p>Brief project description</p>
+            <div class="project-tags">
+              <!-- Tags for Project Six -->
+              <i class="fa-solid fa-file-excel"></i>
+              <!-- More tags as needed -->
+              <div class="modal" id="modal-eight">
+                <span class="modal-close-button">Close</span>
+                <p>Test Modal!!!!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Interests Section -->
+      <section id="interests">
+        <h2>Hobbies and Interests</h2>
+        <div class="container">
+          <div class="hobby-card">
+            <ul>
+              <h3>Favorite Video Games</h3>
+              <li>Dark Souls III</li>
+              <li>The Witcher III: The Wild Hunt</li>
+              <li>The Legend of Zelda: Ocarana of Time</li>
+            </ul>
+          </div>
+          <div class="hobby-card">
+            <ul>
+              <h3>Favorite Albums</h3>
+              <li>OK Computer by Radiohead</li>
+              <li>From Mars to Sirius by Gojira</li>
+              <li>Black Sabbath by Black Sabbath</li>
+            </ul>
+          </div>
+          <div class="hobby-card">
+            <ul>
+              <h3>Favorite Books</h3>
+              <li>Crime and Punishment by Fyodor Dostoevsky</li>
+              <li>Lord of the Rings Trilogy by J.R.R. Tolkien</li>
+              <li>Pet Cemetary by Steven King</li>
+            </ul>
+          </div>
+          <!-- <div class="hobby-card">
+          <ul>
+            Favorite Movies:
+            <li>Hmmm</li>
+            <li>Hmmm</li>
+            <li>Hmmm</li>
+          </ul>
+        </div> -->
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer and Contact Section -->
+    <footer id="footer">
+      <h3>Contact</h3>
+      <ul>
+        <li>
+          <a href="mailto:johnsoncr9@gmail.com" target="_blank">
+            <i class="fa-solid fa-envelope"></i>
+            johnsoncr9@gmail.com
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/connell-johnson-a7b094135/"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/johnsoncr9" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+        <!-- <li>
+          <a
+            href="https://www.instagram.com/yourinstagramhandle"
+            target="_blank"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </li> -->
+      </ul>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

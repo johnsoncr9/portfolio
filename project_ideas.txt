@@ -1,0 +1,88 @@
+Python
+1] Webscraper (Me and GPT) / Python
+2] Snake (Best version does not have self collision - old version does), or Pong, or Turtle Crossing Game (Me and 100 days to code) / Python
+3] State Guessing Game (Me and 100 days to code) / Python
+
+Front End
+1] Tic-Tac-Toe (Me) / HTML, CSS, JS
+2] Memory Game (Me) / HTML, CSS, JS
+3] Background Generator (Me) / HTML, CSS, JS 
+4] This Website (Me and GPT) / HTML, CSS, JS 
+
+React
+1] Meme Generator
+2] Digital Business Card
+3] Travel Journal
+
+Excel / Data Analysis
+1] My Econ thesis paper
+***********************
+
+Project 1: Data Visualization with Python
+Level: Beginner
+Objective: Create a series of visualizations using a dataset of your choice (like stock prices, weather data, sports statistics, etc.).
+Tools: Pandas for data manipulation, Matplotlib and Seaborn for visualization.
+Challenge: Learn to clean and preprocess data, and then present it in visually appealing and informative charts and graphs.
+Outcome: You'll demonstrate your ability to extract insights from data and present them in an understandable format.
+
+
+Project 2: Exploratory Data Analysis (EDA) on a Real-World Dataset
+Level: Intermediate
+Objective: Perform a thorough analysis of a complex dataset (like the Titanic dataset, Airbnb listings, or COVID-19 data).
+Tools: Pandas for data wrangling, Matplotlib/Seaborn for visualization, and possibly SciPy for statistical analysis.
+Challenge: Dive deeper into the data to uncover trends, patterns, and anomalies. Formulate and test hypotheses using statistical methods.
+Outcome: This project will showcase your analytical skills and your ability to derive meaningful insights from data.
+
+
+Project 3: Predictive Modeling with Machine Learning
+Level: Intermediate-Advanced
+Objective: Build a machine learning model to make predictions based on a dataset (like predicting house prices, customer churn, or stock market trends).
+Tools: Scikit-learn for creating machine learning models, Pandas for data manipulation, and Matplotlib/Seaborn for data visualization.
+Challenge: You'll need to preprocess the data, select the right model, train it, and evaluate its performance.
+Outcome: This project will demonstrate your skills in machine learning, a highly sought-after area in data analysis.
+
+*** Additional Project Ideas ***
+Beginner Projects:
+
+Weather Data Analysis
+Objective: Analyze historical weather data (like temperature, rainfall, humidity) of a particular region.
+Tools: Pandas for data manipulation, Matplotlib for basic plotting.
+Skills: Data cleaning, basic statistical analysis, and time-series data visualization.
+
+Stock Market Data Analysis
+Objective: Analyze stock market data (like historical prices of stocks) and identify trends or patterns.
+Tools: Pandas for data handling, Matplotlib and Seaborn for visualization.
+Skills: Understanding financial data, using APIs to fetch real-time data (optional), and creating interactive plots.
+
+Social Media Sentiment Analysis
+Objective: Analyze the sentiment of posts or tweets about a particular topic or event.
+Tools: Tweepy for accessing Twitter data, Pandas for data manipulation, NLTK or TextBlob for sentiment analysis.
+Skills: Text data preprocessing, working with social media APIs, basic natural language processing (NLP).
+
+Intermediate Projects:
+
+E-commerce Sales Analysis
+Objective: Analyze e-commerce transaction data to uncover insights about consumer behavior, popular products, and seasonal trends.
+Tools: Pandas for data manipulation, Matplotlib/Seaborn for visualization, possibly SQL if dealing with databases.
+Skills: Advanced data manipulation, relational database handling, cohort analysis.
+
+Healthcare Data Analysis
+Objective: Analyze a healthcare dataset, such as patient records or disease statistics, to find key health trends or patterns.
+Tools: Pandas, Matplotlib/Seaborn, and possibly SciPy for statistical tests.
+Skills: Dealing with sensitive data, advanced statistical analysis, understanding of healthcare
+data specifics.
+
+Recommendation System for Movies or Books
+Objective: Create a basic recommendation system using a dataset from a platform like MovieLens or Goodreads.
+Tools: Pandas for data manipulation, Scikit-learn for building the recommendation algorithm.
+Skills: Data preprocessing, understanding of recommendation system algorithms (like collaborative filtering), basic machine learning concepts.
+
+Real Estate Price Prediction
+Objective: Predict real estate prices based on various features like location, size, amenities, etc.
+Tools: Pandas for data manipulation, Scikit-learn for regression models, Matplotlib/Seaborn for visualization.
+Skills: Feature engineering, regression analysis, model evaluation and tuning.
+
+Traffic Data Analysis and Visualization
+Objective: Analyze traffic data (like vehicle counts, speed, accidents) to identify patterns and potential problem areas.
+Tools: Pandas for data manipulation, Matplotlib/Seaborn for visualization, Geopandas for spatial data.
+Skills: Time-series analysis, spatial data handling, interactive map visualization.
