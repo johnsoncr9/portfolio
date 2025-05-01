@@ -88,6 +88,8 @@ nav ul li a:hover {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  margin-left: 250px; /* Align with other sections */
+  margin-right: 250px; /* Align with other sections */
 }
 
 #skills ul {
