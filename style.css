@@ -316,6 +316,6 @@ footer ul li {
   /* Modal adjustments for readability */
   .modal {
     width: 90vw; /* occupy most of viewport */
-    font-size: 0.5em; /* ensure legibility */
+    font-size: 0.2em; /* ensure legibility */
   }
 }
