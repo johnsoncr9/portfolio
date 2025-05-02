@@ -1,4 +1,6 @@
-/* General Styles */
+/* =========================
+   General Styles
+   ========================= */
 body {
   font-family: "Courier New", monospace;
   background-color: #0a0a0a; /* Enhanced Dark Background */
@@ -12,57 +14,56 @@ a {
   text-decoration: none;
   transition: color 0.3s ease-in-out;
 }
-
 a:hover {
   color: #ff33ff; /* Bright Neon Pink on Hover */
   text-decoration: underline;
 }
 
-/* Navbar Styles */
+/* =========================
+     Navbar Styles
+     ========================= */
 nav {
-  background: #000000;
+  background: #000;
   text-align: center;
   padding: 1em 0;
 }
-
 nav ul {
   list-style: none;
   padding: 0;
 }
-
 nav ul li {
   display: inline;
   margin: 0 15px;
 }
-
 nav ul li a:hover {
   text-decoration: underline;
 }
 
-/* Home Section */
+/* =========================
+     Hero / Home Section
+     ========================= */
 #home {
   text-align: center;
   padding: 50px 20px;
 }
-
 #home h1 {
   margin-bottom: 20px;
-  color: #39ff14; /* Neon Blue for Title */
+  color: #39ff14; /* Neon Green for Title */
 }
 
-/* About Section */
+/* =========================
+     About Section
+     ========================= */
 #about {
   text-align: center;
   background: #121212;
   padding: 50px 20px;
 }
-
 #about h2,
 #about h3,
 #about p {
-  color: #39ff14; /* Neon Pink Text */
+  color: #39ff14;
 }
-
 #about p {
   text-align: justify;
   max-width: 1000px;
@@ -70,277 +71,251 @@ nav ul li a:hover {
   padding: 10px;
 }
 
-/* Work Experience / Education */
-/* Skills Section */
+/* =========================
+     Skills Section
+     ========================= */
 #skills {
-  background-color: #121212; /* Dark background for contrast */
+  background: #121212;
   padding: 50px 20px;
-  color: #39ff14; /* Neon Green Text */
+  color: #39ff14;
 }
-
 #skills h2 {
   text-align: center;
   margin-bottom: 30px;
 }
-
 #skills .container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin-left: 250px; /* Align with other sections */
-  margin-right: 250px; /* Align with other sections */
+  margin: 0 1rem; /* fluid side padding */
+  padding: 20px; /* inner padding on desktop */
 }
-
 #skills ul {
-  list-style-type: none; /* Remove default list style */
+  list-style: none;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-
 #skills li {
-  margin: 10px 20px; /* Space out list items */
+  margin: 10px 20px;
   font-size: 1.2em;
 }
-
 #skills i {
-  margin-top: 10px; /* Space icons from text */
-  margin-right: 10px; /* Space icons from text */
+  margin-right: 10px;
   font-size: 1.5em;
-  color: #33ff33; /* Bright Orange for Icons */
+  color: #33ff33;
 }
 
-/* Experience Section */
+/* =========================
+     Experience Section
+     ========================= */
 #experience {
-  background-color: #1a1a1a; /* Slightly lighter background */
+  background: #1a1a1a;
   padding: 50px 20px;
-  color: #33ff33; /* Neon Yellow Text */
+  color: #33ff33;
 }
-
 #experience h2,
 #experience h3 {
   text-align: center;
   margin-bottom: 30px;
 }
-
 #experience .work-container {
   display: flex;
-  justify-content: center;
-  flex-wrap: column;
+  flex-direction: column; /* stack items by default */
   align-items: center;
+  margin: 0 1rem; /* fluid side padding */
 }
-
 #experience .work-container ul {
-  list-style-type: none; /* Remove default list style */
+  list-style: none;
   padding: 0;
   text-align: center;
 }
-
 #experience .work-container li {
-  margin: 10px 0; /* Space between items */
+  margin: 10px 0;
   font-size: 1.2em;
 }
 
-/* Education Section */
+/* =========================
+     Education Section
+     ========================= */
 #education {
-  background-color: #121212; /* Consistent with Skills Section */
+  background: #121212;
   padding: 50px 20px;
-  color: #33ff33; /* Neon Green Text */
+  color: #33ff33;
 }
-
 #education h3 {
   text-align: center;
   margin-bottom: 30px;
 }
-
 #education .container {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
+  margin: 0 1rem;
 }
-
 #education ul {
-  list-style-type: none; /* Remove default list style */
+  list-style: none;
   padding: 0;
   text-align: center;
 }
-
 #education li {
-  margin-bottom: 10px; /* Space between items */
+  margin-bottom: 10px;
 }
 
-/* Projects Section */
+/* =========================
+     Projects Section
+     ========================= */
 #projects {
-  background: #1a1a1a; /* Slightly lighter background for contrast */
+  background: #1a1a1a;
   padding: 50px 20px;
 }
-
 #projects h2 {
   text-align: center;
-  color: #39ff14; /* Neon Green for Section Title */
+  color: #39ff14;
 }
-
 .project-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-
 .project {
   width: 25%;
   margin: 15px;
   border: 2px solid #333;
   padding: 10px;
-  background-color: #111;
-  color: #39ff14; /* Neon Green Text */
+  background: #111;
+  color: #39ff14;
+  text-align: center;
 }
-
 .project img {
   max-width: 100%;
   height: auto;
   border-radius: 4px;
 }
-
-.project,
-h3,
-p {
-  text-align: center;
-}
-
 .project-tags {
   font-size: 2em;
   text-align: center;
 }
 
-/* Interests Section */
+/* =========================
+     Interests Section
+     ========================= */
 #interests {
   background: #121212;
   padding: 50px 20px;
 }
-
 #interests h2 {
   text-align: center;
-  color: #39ff14; /* Neon Pink for Section Title */
+  color: #39ff14;
 }
-
 #interests .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 0 1rem;
 }
-
 .hobby-card {
   width: 300px;
   margin: 15px;
   border: 1px solid #333;
   padding: 15px;
-  background-color: #1a1a1a;
+  background: #1a1a1a;
 }
-
 .hobby-card ul {
-  list-style-type: none;
+  list-style: none;
   text-align: center;
   padding: 0;
 }
-
 .hobby-card li {
   margin-bottom: 10px;
 }
 
-/* Footer */
-footer {
-  background: #000000;
-  color: #ffffff;
-  text-align: center;
-  padding: 20px 0;
-}
-
-footer ul {
-  list-style: none;
-  padding: 0;
-}
-
-footer ul li {
-  display: inline;
-  margin: 0 15px;
-}
-
-/* Responsive and Mobile Friendly Styles */
-@media (max-width: 768px) {
-  .project {
-    width: 100%; /* Full width for smaller screens */
-  }
-
-  nav ul li {
-    display: block;
-    margin: 10px 0;
-  }
-
-  #skills .container,
-  #interests .container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .hobby-card,
-  .project {
-    width: 100%; /* Adjust width for mobile view */
-  }
-}
-
-/* Skills Section */
-#skills {
-  background: #121212;
-  padding: 50px 20px;
-}
-
-#skills .container {
-  display: flex;
-  justify-content: space-around;
-  align-items: start;
-  padding: 20px;
-}
-
-.skills ul {
-  list-style-type: none; /* Remove default list style */
-  padding: 0;
-}
-
-.skills li {
-  margin-bottom: 10px;
-  color: #39ff14; /* Neon Pink Text */
-}
-
-/* Modal Styles */
+/* =========================
+     Modal Styles
+     ========================= */
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  top: 50%; /* Center vertically */
-  left: 50%; /* Center horizontally */
-  transform: translate(-50%, -50%); /* Adjust for the modal's dimensions */
-  background-color: #1a1a1a; /* Background color */
-  padding: 20px; /* Padding around the content */
-  border: 1px solid #ccc; /* Border */
-  border-radius: 10px; /* Rounded corners */
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Shadow effect */
-  z-index: 1000; /* High z-index to ensure it's on top */
-  width: auto; /* Or any width you prefer */
-  max-height: 90vh; /* Maximum height */
-  overflow-y: auto; /* Allows scrolling within the modal */
-  color: #39ff14; /* Neon Green Text */
-  font-size: 0.5em;
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #1a1a1a;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  width: auto;
+  max-height: 90vh;
+  overflow-y: auto;
+  color: #39ff14;
+  font-size: 1em; /* base font size */
 }
-
 .modal-close-button {
   position: absolute;
   top: 10px;
   right: 10px;
   cursor: pointer;
-  color: #ff33ff; /* Bright Neon Pink */
+  color: #ff33ff;
 }
 
-/* Additional Cyberpunk Styling /
-    / You can add specific hover effects, animations, or neon glows here */
+/* =========================
+     Footer
+     ========================= */
+footer {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+footer ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+/* =========================
+     Responsive & Mobile Overrides
+     ========================= */
+@media (max-width: 768px) {
+  /* Stack nav items vertically */
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  /* Make project and hobby cards full width */
+  .project,
+  .hobby-card {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  /* Stack key sections and remove fixed margins */
+  #skills .container,
+  #interests .container,
+  #experience .work-container,
+  #education .container {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1rem; /* reset side space for mobile */
+    padding: 1rem 0; /* reduce vertical padding */
+  }
+
+  /* Full-width projects container for mobile */
+  .project-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Modal adjustments for readability */
+  .modal {
+    width: 90vw; /* occupy most of viewport */
+    font-size: 1em; /* ensure legibility */
+  }
+}
